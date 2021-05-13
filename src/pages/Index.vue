@@ -36,8 +36,8 @@ export default {
   data() {
       
     return {
-      mySrc: require("../public/index.png"),
-      error: 'this.src="'+ require("../public/index.png")+'"',
+      mySrc: "../public/index.png",
+      error: 'this.src="'+ "../public/index.png"+'"',
       slide: 'style',
       intro: {
         howItWorks: [
