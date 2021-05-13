@@ -35,7 +35,7 @@ export default {
   data() {
       
     return {
-      mySrc: require("../public/index.png"),
+      mySrc: require("./../public/index.png"),
       slide: 'style',
       intro: {
         howItWorks: [
