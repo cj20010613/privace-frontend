@@ -31,7 +31,7 @@
 export default {
   name: 'PageIndex',
   data() {
-      mySrc: "../public/index.png"
+      mySrc: "../public/index.png",
     return {
       slide: 'style',
       intro: {
