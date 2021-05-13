@@ -1,9 +1,10 @@
 <template>
   <q-page class="flex flex-center row">
     <div class="col-12" style="height: 20vh;"></div>
-    <div class="col-8" style="height: 80vh;">
-    <div>
+     <div>
       <img :src="mySrc"></div>
+    <div class="col-8" style="height: 80vh;">
+   
       <div class ="q-mx-md text-h4 text-bold"> <div class="q-my-md text-h2 text-bold"><span class="text-purple-9">Privacy</span><span class="text-cyan-7">Wallet</span></div>
       Trading personal dataaaaaaaaaaaaaaaaaaaaaa without leaking privacy.
       </div>
