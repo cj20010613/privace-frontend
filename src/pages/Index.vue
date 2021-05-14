@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import img from "../public/index.png";
+import img from "./index.png";
 
 export default {
   name: 'PageIndex',
