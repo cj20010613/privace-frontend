@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center row">
     <div class="col-12" style="height: 20vh;">
-      <div class="bg"><img :src="mySrc" :oneerror="error"></div>
+      <div class="bg"><img :src="mySrc"></div>
     </div>
      
     <div class="col-8" style="height: 80vh;">
@@ -31,13 +31,14 @@
 </template>
 
 <script>
+import img from "../public/index.png";
+
 export default {
   name: 'PageIndex',
   data() {
       
     return {
-      mySrc: "../public/index.png",
-      error: 'this.src="'+ "../public/index.png"+'"',
+      mySrc: img,
       slide: 'style',
       intro: {
         howItWorks: [
