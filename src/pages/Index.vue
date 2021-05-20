@@ -6,7 +6,7 @@
      
     <div class="col-8" style="height: 80vh;">
    
-      <div class ="q-mx-md text-h4 text-bold"> <div class="q-my-md text-h2 text-bold"><span class="text-purple-9">Privacy</span><span class="text-cyan-7">Wallet</span></div>
+      <div class ="q-mx-md text-h4 text-yellow"> <div class="q-my-md text-h2 text-bold"><span class="text-red">Privacy</span><span class="text-cyan-7">Wallet</span></div>
       <div class="bg"><img :src="mySrc"></div>
       在不泄露隐私的情况下交易个人数据.
       </div>
@@ -70,4 +70,4 @@ export default {
 .my-card {
   height: 200px;
 }
-</style>
+<yle>
